@@ -1,0 +1,409 @@
+.main{
+    width: 100%;
+
+    height:2000px 
+    ;
+    background-color: none
+    ;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: none !important;
+
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: none !important;
+}
+.section1{
+    width: 100%;
+    height: 550px;
+    background-color: #efc241;
+    /* border: 2px solid black ; */
+    display: flex;
+}
+.pic{
+    width: 650px;
+    height:550px ;
+}
+.pic img {
+    width: 650px;
+    height:550px ;
+
+}
+.content{
+    width: 45%;
+    height: 550px;
+    padding: 100px;
+}
+.content h1 {
+
+    color: white;
+    font-size: 50px;
+}
+.content p{
+   color: white;
+   font-size: 24px;
+}
+.content button {
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: none;
+    margin-top: 30px;
+}
+/* first section ends here  */
+/* first sec mobile break through  */
+@media only screen and (max-width:500px)
+{
+    .section1{
+        flex-direction: column-reverse;
+        height: 1500px;
+    }
+    .pic {
+        width: 320px;
+    }
+    .pic img {
+        width: 320px;
+    }
+    .content{
+        width: 320px;
+        padding: none   ;
+        margin-bottom: 350px;
+
+    }
+    .content h1 {
+           font-size: 25px;
+
+    }
+    .content p {
+        font-size: 15px;
+        
+    }
+    .header{
+        width: 320px;
+    }
+    nav{
+        width: 320px  !important;
+    }
+    .content button {
+       width: 150px;
+       height: 75px;
+       padding: 10px;
+       text-align: center;
+       margin-right: 150px;
+       position: relative;
+       right: 100px;
+       
+    }
+
+         /* section 2 */
+}
+.section2{
+    width: 100%;
+    height: 550px;
+    background-color: #e5e5e5;
+    display: flex;
+    gap: 20px;
+}
+.item0{
+    width: 30%;
+    height:350px ;
+    text-align: center;
+    padding: 60px;
+    
+
+
+}
+
+.item1{
+    width: 30%;
+    height:350px ;
+    background-color: black;
+    margin-top: 180px;
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+
+}
+.item2{
+    width: 30%;
+    height:350px ;
+    background-color:#f59d32 ;
+    text-align: center;
+    padding: 60px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: white;
+
+
+}
+.item0 button{
+   border-radius: 20px;
+   background-color: white;
+   font-weight: bolder;
+   padding: 20px;
+   border: none;
+}
+@media only screen and (max-width:500px){
+    .section2{
+        flex-direction: column;
+        width: 320px;
+        height: 1450px;
+    }
+    .item0 button{
+        border-radius: 10px;
+        padding: 5.5px;
+
+    }
+    .item0{
+        width: 310px;{
+
+        }
+    }
+    .item1{
+        width: 310px;
+
+    }
+    .item2{
+        width: 310px;
+
+    }
+
+}
+/* section3  */
+.section3{
+    width: 100%;
+    height: 550px;
+    background-color: #63894c;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.content2{
+    width: 45%;
+    height: 550px;
+    color: wheat;
+    padding: 100px;
+
+}
+.content2 h1 {
+    font-size: 40px;
+    
+}
+.content2 p {
+   font-size: 21px;
+}
+.content2 button {
+    width: 150px;
+    height: 65px;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.content2 button :hover{
+    background-color: black;
+} 
+.pic2{
+    width: 50%;
+    height: 550px;
+    border-radius: 10px;
+
+}
+.pic2 img {
+    width:50%;
+    height: 550px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:500px) {
+    .section3{
+        height: 1500px;
+        flex-direction: column;
+
+
+    }
+    .content2{
+       width: 320px;
+       padding: 50px;
+       margin-bottom: 200px;
+    }
+    .pic2{
+        width: 320px;
+
+    }
+    .pic2 img{
+        width: 320px;
+    }
+    .content2 h1{
+        font-size: 25px;
+
+    }
+    .content2 p {
+        font-size: 16px;
+    }
+    .content2 button {
+        width: 120px;
+        height: 70px;
+        padding: 8px;
+    }
+}
+.itemsec{
+    width: 100%;
+    height: 550px;
+    background-color: #e5e5e5;
+    border: 2px solid black;
+    display: flex;
+
+
+}
+.i{
+    width: 300px;
+    height: 150px;
+}
+.i img {
+    width: 150px;
+    height: 75px;
+}
+.sectionform{
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    display: flex;
+}
+.content23{
+   width: 45%;
+   height: 700px;
+   color: white;
+   padding: 100px;
+
+}
+.content23 h1 {
+    font-size: 50px;
+
+
+}
+.content23 p{
+    font-size: 23px;
+
+}
+.content23 button {
+    background-color: white;
+    width: 180px;
+    height: 92px;
+    border: none;
+    border-radius: 20px;
+
+}
+.form{
+    width: 45%;
+    height:600px ;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+   
+   
+}
+.form h1 {
+    text-align: center;
+    padding: 50px;
+}
+.details{
+    padding: 100px;
+}
+.details input {
+    width: 400px;
+    height: 50px;
+}
+.details textarea{
+    width: 400px;
+    height: 150px;
+
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    
+}
+li {
+    font-size: 32px;
+    text-align: center;
+}
+.heading {
+    text-align: center;
+}
+.section4{
+    height: 200px;
+}
+@media only screen and (max-width:500px){
+    .section4{
+        height: 600px;
+    }
+    .itemsec{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+       text-align: center;
+    }
+    .sectionform{
+        height: 2500px;
+        flex-direction: column;
+        width: 320px;
+
+    }
+
+    .content23 h1 {
+                  font-size: 25px;
+    }
+    .content23 p{
+        font-size: 15px;
+        padding: 20px;
+
+    }
+     /* input{
+        width: 5px;
+        height: 10px;
+    } 
+    textarea{
+        width: 20px;
+        height: 40px;
+    } */
+    .content23{width: 320px;
+     height: 1800px;}
+     /* .sectionform {
+        width: 320px;
+        height: 1000px;
+        
+     }
+     input{
+        width: 10px;
+     }
+    */
+    .form{
+        height: 1800px;
+        width: 320px;
+    }
+    .details input{
+        width: 200px;
+    }
+    .details textarea{
+        width: 200px;
+    }
+    .footer{
+        width: 320px;
+    }
+
+}
+
+
+
+
+
+
+
